@@ -1,0 +1,21 @@
+pt-BR:
+  activerecord:
+    models:
+      product: Produto
+      customer: Cliente
+      sale: Venda
+    attributes:
+      product:
+        name: Nome
+        description: Descrição
+        unit_price: Preço unitário
+        created_at: Criado em
+        updated_at: Atualizado em
+      customer:
+        name: Nome
+        document: Documento
+        birth_date: Data de nascimento
+      sale:
+        sale_at: Vendido em
+        products: Produtos
+        customer: Cliente

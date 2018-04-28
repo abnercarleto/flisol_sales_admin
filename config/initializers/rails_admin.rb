@@ -1,5 +1,7 @@
 RailsAdmin.config do |config|
 
+  config.excluded_models = ['SaleProduct']
+
   ### Popular gems integration
 
   ## == Devise ==
