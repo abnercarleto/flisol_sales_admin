@@ -7,5 +7,7 @@ RSpec.describe Sale, type: :model do
 
   describe 'associations' do
     it { is_expected.to belong_to :customer }
+    it { is_expected.to have_many :sale_products }
+    it { is_expected.to have_many(:products).through(:sale_products) }
   end
 end
